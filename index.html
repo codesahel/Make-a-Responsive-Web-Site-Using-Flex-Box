@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box Assignment</title>
+
+
+    <!-- Linking Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            background-color: #b0ff0033;
+        }
+        * {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            background-color: #6487f2;
+            margin: 10px;
+            padding: 50px;
+        }
+
+        h1 {
+            font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            text-decoration: underline;
+            font-size: 40px;
+        }
+
+        small {
+            margin-left: 370px;
+            line-height: 0px;
+            display: flex;
+            justify-content: center;
+            font-weight: bolder;
+            font-size: 19px;
+        }
+
+        .nav {
+            background-color: #ff6767;
+            padding: 5px;
+        }
+
+        nav ul li {
+            display: inline;
+            padding: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            margin: 120px;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: rgb(63, 75, 238);
+        }
+
+        .content {
+            background-color: turquoise;
+            padding: 20px;
+            margin-left: 150px;
+            margin-right: 150px;
+            margin-top: 100px;
+            border-radius: 10px;
+        }
+
+        .content section h2 {
+            display: flex;
+            justify-content: center;
+            font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 35px;
+            line-height: 10px;
+        }
+
+        .content section hr {
+            border: 1px solid black;
+            width: 50%;
+        }
+
+        .content section article {
+            font-size: 16px;
+
+        }
+         #service{
+             font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+             font-size: 35px;
+             text-align: center;
+        }
+        .rule{
+            border: 1px solid black;
+            width: 40%;
+        }
+        .technical{
+            background-color: #ffff88;
+            height: 70%;
+            width: 40%;
+            margin-left: 385px;
+            padding: 20px;
+            display: inline-flex;
+            justify-content:center; 
+            margin-bottom: 100px;
+        }
+        #technical{
+            border-right: 2px solid black;
+            margin-right: 8px;
+
+        }
+        h3{
+            font-family:'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 25px;
+            text-decoration: underline;
+            text-align: center;
+        }
+        footer{
+            background-color: #000000d6;
+            padding: 15px;
+        }
+        footer ul li {
+            padding: 10px;
+            list-style: none;
+            line-height: 3px;
+        }
+        footer ul li a{
+            text-decoration: none;
+            color: #ffffff;
+            margin: 120px;
+            font-weight: bold;
+        }
+        footer ul li a:hover{
+            color: yellow;
+        }
+        p{
+            color: #ffffff;
+            text-align:center;
+            font-size:12px;
+        }
+        footer h4{
+            color: #ffffff;
+            margin-left: 150px;
+            font-size: 20px;
+            line-height: 1px;
+        }
+        
+        
+        
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 id="head">
+            Imetrix Solutions
+        </h1>
+        <small>We Make Products</small>
+
+    </div>
+
+    <div class="nav">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About Us</a>
+                </li>
+                <li>
+                    <a href="#">Service</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="content">
+
+        <section>
+            <h2>Welcome</h2>
+            <hr>
+
+            <article>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit a, iure deleniti reprehenderit
+                cum veniam vitae dolore, voluptate error, nobis laboriosam ipsa nisi quisquam aspernatur tempore totam
+                voluptatem vel. Est sint repellat dolor, rerum natus repudiandae voluptatum quos minima labore maiores
+                atque obcaecati consequatur aliquam?</article>
+        </section>
+    </div>
+            <h2 id="service">Services</h2>
+                 <hr class="rule">
+    <div class="technical">
+        <section id="technical">
+        
+            <h3>Technical</h3>
+            <article>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet maiores, recusandae pariatur
+                deleniti delectus dolores provident sapiente nam numquam. Distinctio id, amet quo atque tempore aut at
+                exercitationem officiis minima.</article>
+        </section>
+   
+        
+   
+
+          <section>
+            <h3>Support</h3>
+            <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque accusantium dolore vero impedit,
+                excepturi nesciunt aliquid, aperiam iste illo autem provident nulla? Quibusdam iste, asperiores aliquid
+                unde deserunt quos illo.</article>
+        </section>
+    </div>
+
+    <footer>
+        <h4>Links :</h4>
+        <ul>
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="">About</a>
+            </li>
+            <li>
+                <a href="">Services</a>
+            </li>
+            <li>
+                <a href="">Contact</a>
+            </li>
+        </ul>
+
+        <p>Imetrix Solutions &copy; Copyright 2021</p>
+        <p>Made in India with &hearts;</p>
+    </footer>
+
+</body>
+
+</html>
